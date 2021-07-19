@@ -1,0 +1,1 @@
+const getCount = (str) => str.split('').filter(st => ("aiueo").includes(st)).length;
